@@ -1,0 +1,94 @@
+1. Instalacija
+na Windows sum, taka da samo instaliranje na git preku git-scm. 
+
+2-3.
+Se e napraveno preku browser / click.
+
+4.
+mkdir SI_2023_lab1_112038 (rabotam preku terminalot na VS Code)
+git init -- za inicijalizacija
+
+
+5-8.
+touch README.md -- kreiranje na README
+touch SILab1.java -- kreiranje na java file-ot
+git add README.md -- dodavanje na README vo git tracking
+git commit -m "Initial commit" -- zadavanje na commit message
+git branch -M master -- new branch (master)
+git remote add origin https://github.com/petariliev112038/SI_2023_lab1_112038.git -- povrzuvanje na lokalniot direktorium so remote git repo
+git push -u origin master -- push to master
+
+git add SILab1.java -- dodavanje na java file-ot vo git tracking
+git commit -m "Add java class" -- zadavanje na commit message
+git push -- push to master
+
+git fetch --all -- povlekuvanje na site granki od remote (nema potreba vo ovoj slucaj, nemame drugi)
+git pull --all -- sinhronizacija na site granki od remote (nema potreba vo ovoj slucaj, nemame drugi)
+
+9.
+git checkout -b bug1 -- se vrakjame nazad posle so git switch master
+git checkout -b bug2 -- se vrakjame nazad posle so git switch master
+git checkout -b bug3 -- se vrakjame nazad posle so git switch master
+
+10-11.
+git switch bug1
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+
+12-13
+git switch bug2
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers
+
+14-15
+git switch bug3
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+
+16.
+git push --all
+
+17.
+git switch master
+
+18.
+git merge bug1
+
+19.
+git fetch --all
+git pull --all
+git push --all
+
+20.
+git merge bug2
+
+21.
+git fetch --all
+git pull --all
+git push --all
+
+22.
+git switch bug3
+
+23.
+git rebase master
+
+24.
+git switch master
+
+25.
+git merge bug3
+
+26.
+git fetch --all
+git pull --all
+git push --all (pagja, mora so force)
+git push --all --force
+
+27.
+touch logs.txt -- kreiranje
+git add 112038.txt -- dodavanje na 112038.txt vo tracking
+git add logs.txt -- dodavanje na logs.txt vo tracking
+git commit -m "Final commit"
+git push --all
+

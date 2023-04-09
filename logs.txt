@@ -1,0 +1,36 @@
+commit 83fc0ed74961630e4e434f0a979f5ad26552e557 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Petar Iliev <petar.sammy@gmail.com>
+Date:   Sun Apr 9 15:52:52 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 11c9544105f56e37f0b7640d441a0d971bb4d38a
+Merge: 211731d ae6fa50
+Author: Petar Iliev <petar.sammy@gmail.com>
+Date:   Sun Apr 9 16:00:56 2023 +0200
+
+    Merge branch 'bug2'
+
+commit ae6fa50f442e864527c3a143ccffd662f09a2614 (origin/bug2, bug2)
+Author: Petar Iliev <petar.sammy@gmail.com>
+Date:   Sun Apr 9 15:51:53 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 211731dee70d314e6bdf4e2523a7167776ce9804 (origin/bug1, bug1)
+Author: Petar Iliev <petar.sammy@gmail.com>
+Date:   Sun Apr 9 15:50:31 2023 +0200
+
+    Fix wrong loop for reading
+
+commit e0d7dfabd9661d635de4abac80dcc26657fc8152
+Author: Petar Iliev <petar.sammy@gmail.com>
+Date:   Sun Apr 9 15:31:28 2023 +0200
+
+    Add java class
+
+commit f1864a017c551d87e87ed8cbddf2455f830c7e7e
+Author: Petar Iliev <petar.sammy@gmail.com>
+Date:   Sun Apr 9 15:25:20 2023 +0200
+
+    Initial commit
